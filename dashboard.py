@@ -12,6 +12,7 @@ import plotly.graph_objs as go
 import numpy as np
 
 app = dash.Dash(__name__)
+server = app.server
 
 #--------------------------------------------------------
 # Import data and clean data
